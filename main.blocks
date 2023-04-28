@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="qfl,=]ugo1S]d7-x#A%J" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_number" id="Pv07~CMlYLg]l0{;3k(s"><value name="number"><shadow type="math_number" id="^aQ=HZ74FFOJWp;)3i{e"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="kFQ$S/;fNHagKqixt^YY"><value name="number"><shadow type="math_number" id="S=9`LR)QG2REvxMVgp$K"><field name="NUM">2</field></shadow></value><next><block type="device_show_number" id="q|3=;{FX9E0E{zJ_Xy]g"><value name="number"><shadow type="math_number" id="R$LuU!id]n5IZ~u(fu7a"><field name="NUM">1</field></shadow></value><next><block type="controls_if" id="{0L7tnjx.2f)c}/nr!,^"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="T+WaDWRBET;tEql0caR#"></block></value><statement name="DO0"><block type="device_show_leds" id="mZ09E9(w.-^~pn@~b!~m"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="t3x;11ascQt0:5}DC5ai"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block></next></block></next></block></next></block></statement></block></xml>
